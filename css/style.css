@@ -1,0 +1,94 @@
+#pdf{
+	margin-top: 13px;	
+	background-color: #B40404;
+}
+
+body{
+	background-image: url("../test3.png");
+}
+
+#cv{
+	background-color: #080808;
+}
+
+#logo{
+	background: url("../dentellered.gif") 0px 0px repeat-x;
+	font-family: 'Lily Script One', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+.social {
+	margin-right: 25px;
+}
+
+p>span, p>i{
+	margin-right: 25px;
+}
+
+.shadow {
+	padding-right: 0px;
+	padding-left: 0px;
+    -moz-box-shadow:    3px 3px 5px 6px #585858;
+    -webkit-box-shadow: 3px 3px 5px 6px #585858;
+    box-shadow:         3px 3px 5px 6px #585858;
+}
+
+.borderbot{
+	border-bottom: solid 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+}
+
+.{
+	opacity: 0.8;
+}
+
+.labeltitle{
+	background-color: #0A122A;
+}
+
+#banniere{
+	padding-bottom: 25px;
+	padding-top: 55px;
+}
+
+#accueil::after{
+	content: "";
+	background: url("../accueil.gif") no-repeat;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;  
+}
+
+.navbar{
+	background: url("../dentelle.png") 100% 0px repeat-x;
+	padding-bottom: 20px;
+	border-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background: url("../dentelle.png") 100% 0px repeat-x;
+	padding-bottom: 14px;
+	border-bottom: 0;
+}
+
+.active{
+font-weight: bolder;
+}
+
+#cover{
+	background-image: url("../coverbackground.jpg");
+	background-size: 100% auto;
+	background-position: 0px -100px;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+
+.cover{
+	
+}

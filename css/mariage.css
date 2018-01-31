@@ -1,0 +1,31 @@
+/* Div principale */
+#content {
+    margin-top : 80px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/* Jumbotron */
+#jumbotron {
+    text-align: center;
+}
+
+/* Anneaux */
+#anneau_1 {
+    display: inline-block;
+    transform: rotate(-20deg);
+}
+#anneau_2 {
+    display: inline-block;
+    transform: rotate(20deg);
+    margin-left: -12px;
+    clip-path: circle(44% at 49% 65%);
+}
+
+/* Navbar and tweaks */
+a.anchor { 
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}

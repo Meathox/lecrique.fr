@@ -1,3 +1,21 @@
+a[aria-expanded=true] .icofont-rounded-down {
+    display: none;
+}
+a[aria-expanded=false] .icofont-rounded-up {
+    display: none;
+}
+
+.gmap iframe{
+  padding-top: 20px;
+  width: 100% !important;
+}
+
+.plusdinfo{
+  float: left;
+  position: relative;
+  bottom: -50px;
+}
+
 .img-timeline{
   width: 150px;
   height: 150px;

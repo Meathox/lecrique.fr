@@ -17,6 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/mariage.js" ></script>
   </head>
 
   <body data-spy="scroll" data-target="#navbar-example2" data-offset="80">
@@ -61,6 +62,14 @@
                 <div class="timeline-body">
                   <img class="rounded-circle img-timeline" src="http://www.nordmag.fr/nord_pas_de_calais/tourcoing/tourcoing_hdv.jpg" alt="">
                 </div>
+                <div class="plusdinfo">  
+                  <a class="btn-plusdinfo" data-toggle="collapse" href="#gmap-1" aria-expanded="false" aria-controls="gmap-1">
+                    <small><i class="icofont icofont-rounded-down"></i><i class="icofont icofont-rounded-up"></i></small>
+                  </a>
+                </div>
+                <div class="gmap collapse" id="gmap-1">
+                  <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=mairie%20de%20tourcoing&key=AIzaSyCIvwAH6n9GTesKdAz5vpqT-Mc1kzrYLvk" allowfullscreen></iframe> 
+                </div>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -79,19 +88,27 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Vin d'honneur</h4>
-                  <p><small class="text-muted"> 16h30 - Terrasse de l'Engrenage (Golf de Mérignies) </small></p>
+                  <p><small class="text-muted"> 16h30 - Terrasse Golf de Mérignies <i class="icofont icofont-golf"></i></small></p>
                 </div>
                 <div class="timeline-body">
                   <img class="rounded-circle img-timeline" src="https://s3-media2.fl.yelpcdn.com/bphoto/DHBH4s3C33IOPcl5LYC7Cg/ls.jpg" alt="">
                 </div>
+                <div class="plusdinfo">  
+                  <a class="btn-plusdinfo" data-toggle="collapse" href="#gmap-2" aria-expanded="false" aria-controls="gmap-1">
+                    <small><i class="icofont icofont-rounded-down"></i><i class="icofont icofont-rounded-up"></i></small>
+                  </a>
+                </div>
+                <div class="gmap collapse" id="gmap-2">
+                  <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=l'engrenage%20restauran&key=AIzaSyCIvwAH6n9GTesKdAz5vpqT-Mc1kzrYLvk" allowfullscreen></iframe> 
+                </div>
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge soiree"><i class="icofont icofont-culinary"></i></div>
+              <div class="timeline-badge soiree"><i class="icofont icofont-layered-cake"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Soirée</h4>
-                  <p><small class="text-muted"> 19h30 - L'Engrenage (Golf de Mérignies) </small></p>
+                  <p><small class="text-muted"> 19h30 - L'Engrenage <i class="icofont icofont-gear"></i> (Golf de Mérignies) </small></p>
                 </div>
                 <div class="timeline-body">
                   <img class="rounded-circle img-timeline" src="http://cdn-medias.crtnpdc.vm.aiprod.com/original/RESNPC000FS0008T/0-image.png" alt="">
@@ -102,7 +119,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Toutes les bonnes choses ont une fin...</h4>
-                  <p><small class="text-muted"> 3h00 - Fin de la soirée </small></p>
+                  <p><small class="text-muted"> 3h00 - Fin de la soirée <i class="icofont icofont-bed"></i></small></p>
                 </div>
                 <div class="timeline-body">
                   
@@ -155,7 +172,7 @@
       <a class="anchor" id="liste"></a>
       <h1>Liste de mariage</h1>
       <a class="anchor" id="infos"></a>
-      <h1>Informations complémentaires</h1>
+      <h1>Informations utiles</h1>
     </div>
   </body>
 </html>

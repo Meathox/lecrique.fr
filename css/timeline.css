@@ -1,3 +1,10 @@
+.img-timeline{
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-top: -80px;
+}
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -115,6 +122,12 @@
   }
   .timeline-badge.pink {
     background-color: #FACADE !important;
+  }
+  .timeline-badge.champagne {
+    background-color: #F1E57A !important;
+  }
+  .timeline-badge.soiree {
+      background-color: rgb(174, 155, 240) !important;
   }
   .timeline-title {
     margin-top: 0;

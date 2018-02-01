@@ -121,15 +121,27 @@ img.carousel.grande{
 
 /* Petit Mot */
 #div-petitmot{
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     padding: 10px;
-    border-radius: 5px;
     margin-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #div-petitmot h3{
     margin-bottom: 20px;
     font-family: 'Amatic SC', cursive;
+}
+
+/* Footer */
+#footer{
+     background-color: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    border-radius: 5px;   
+}
+
+#copyright{
+    text-align: right;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
 }

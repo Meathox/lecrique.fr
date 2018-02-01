@@ -29,3 +29,31 @@ a.anchor {
     top: -60px;
     visibility: hidden;
 }
+
+/* Carousel */
+#carousel-container{
+    height: 500px !important;
+    width: 50% !important;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#carousel-container div{
+    height: 100% !important;
+    width: 100% !important;
+    background-color: lightblue;
+    border-radius: 1% !important;
+}
+
+img.carousel{
+    margin: 0 auto;
+    height: 100% !important;
+    width: auto !important;
+}
+
+/* Menu */
+#div-menu{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

@@ -6,8 +6,9 @@ a[aria-expanded=false] .icofont-rounded-up {
 }
 
 .gmap iframe{
-  padding-top: 20px;
+  margin-top: 20px;
   width: 100% !important;
+  border-radius: 3% !important;
 }
 
 .plusdinfo{
@@ -27,6 +28,7 @@ a[aria-expanded=false] .icofont-rounded-up {
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
+    margin-bottom: 40px;
   }
   .timeline:before {
     top: 0;

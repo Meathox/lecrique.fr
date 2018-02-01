@@ -3,6 +3,16 @@ body{
     background-repeat: repeat;
 }
 
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#content h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
 /* Div principale */
 #content {
     margin-top : 80px;
@@ -16,6 +26,10 @@ body{
     background-color: #fff;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+#jumbotron h1{
+    font-family: 'Fredericka the Great', cursive;
 }
 
 /* Anneaux */
@@ -36,6 +50,25 @@ a.anchor {
     position: relative;
     top: -60px;
     visibility: hidden;
+}
+
+#navbar-example2 {
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+a.navbar-brand{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+a.nav-link{
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    color: black;
+}
+
+a.nav-link.active{
+    background-color: #f7d6b9 !important;
 }
 
 /* Carousel */
@@ -70,7 +103,27 @@ img.carousel{
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
+#div-menu h4{
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+}
+
 #info-menu{
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+/* Petit Mot */
+#div-petitmot{
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+#div-petitmot h3{
+    margin-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
 }

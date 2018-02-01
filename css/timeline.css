@@ -161,3 +161,6 @@ a[aria-expanded=false] .icofont-rounded-up {
   .timeline-body > p + p {
     margin-top: 5px;
   }
+.timeline h4{
+  font-family: 'Amatic SC', cursive;
+}

@@ -1,3 +1,8 @@
+body{
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+}
+
 /* Div principale */
 #content {
     margin-top : 80px;
@@ -8,6 +13,9 @@
 /* Jumbotron */
 #jumbotron {
     text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
 /* Anneaux */
@@ -41,7 +49,6 @@ a.anchor {
 #carousel-container div{
     height: 100% !important;
     width: 100% !important;
-    background-color: lightblue;
     border-radius: 1% !important;
 }
 
@@ -49,11 +56,21 @@ img.carousel{
     margin: 0 auto;
     height: 100% !important;
     width: auto !important;
+    border-radius: 1% !important;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
 /* Menu */
 #div-menu{
     padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+#info-menu{
     margin-top: 20px;
     margin-bottom: 40px;
 }

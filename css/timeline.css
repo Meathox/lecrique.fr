@@ -36,7 +36,7 @@ a[aria-expanded=false] .icofont-rounded-up {
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background-color: #c5c5c5;
     left: 50%;
     margin-left: -1.5px;
   }
@@ -69,6 +69,7 @@ a[aria-expanded=false] .icofont-rounded-up {
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background-color: #ffffff;
   }
   .timeline > li > .timeline-panel:before {
     position: absolute;

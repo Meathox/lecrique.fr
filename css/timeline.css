@@ -110,6 +110,7 @@ a[aria-expanded=false] .icofont-rounded-up {
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+    border : 2px solid #fff;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -144,8 +145,18 @@ a[aria-expanded=false] .icofont-rounded-up {
   .timeline-badge.pink {
     background-color: #FACADE !important;
   }
+  .timeline-badge.pink i {
+    float: left;
+    margin-top: 11px;
+    margin-left: 7px;
+  }
+  .timeline-badge.soiree i {
+    float: left;
+    margin-left: 12px;
+    margin-top: 9px;
+  }
   .timeline-badge.champagne {
-    background-color: #F1E57A !important;
+    background-color: rgb(241, 160, 122) !important;
   }
   .timeline-badge.soiree {
       background-color: rgb(174, 155, 240) !important;

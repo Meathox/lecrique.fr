@@ -94,6 +94,12 @@ img.carousel{
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
+img.carousel.grande{
+    max-width: 100%;
+    height: auto !important;
+    margin-top: 15%;
+}
+
 /* Menu */
 #div-menu{
     padding: 10px;

@@ -106,6 +106,12 @@ img.carousel.rotation90{
     width: auto !important;
 }
 
+.carousel-btn{
+    border-radius:50%;
+    background-color: black;
+    border: 1px solid white;
+}
+
 /* Menu */
 #div-menu{
     padding: 10px;

@@ -92,14 +92,27 @@ $(document).ready(function() {
     //  Typed Js
     // ========================================================================= //
   
-    var typed = $(".typed");
+    var typed_eng = $(".typed-eng");
   
     $(function() {
-      typed.typed({
+      typed_eng.typed({
         strings: ["Mathieu Lecrique.^150", 
         "A Lead Developer.^150", 
         "A Support player.^150", 
         "The Dungeon Master.^150"],
+        typeSpeed: 100,
+        loop: true,
+      });
+    });
+
+    var typed_fr = $(".typed-fr");
+  
+    $(function() {
+      typed_fr.typed({
+        strings: ["Mathieu Lecrique.^150", 
+        "Chef de projet.^150", 
+        "joueur de support.^150", 
+        "Dungeon Master.^150"],
         typeSpeed: 100,
         loop: true,
       });

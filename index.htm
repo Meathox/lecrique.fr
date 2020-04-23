@@ -54,23 +54,21 @@
 
         <ul class="nav-menu list-unstyled">
           <!-- ENG -->
-          <li><a href="#header" class="smoothScroll eng active-language">Home</a></li>
-          <li><a href="#about" class="smoothScroll eng active-language">About</a></li>
-          <li><a href="#jobs" class="smoothScroll eng active-language">Work</a></li>
-          <li><a href="#contact" class="smoothScroll eng active-language">Contact</a></li>
+          <li class="eng active-language"><a href="#header" class="smoothScroll eng active-language">Home</a></li>
+          <li class="eng active-language"><a href="#about" class="smoothScroll eng active-language">About</a></li>
+          <li class="eng active-language"><a href="#jobs" class="smoothScroll eng active-language">Work</a></li>
+          <li class="eng active-language"><a href="#contact" class="smoothScroll eng active-language">Contact</a></li>
           <!-- FR -->
-          <li><a href="#header" class="smoothScroll fr">Accueil</a></li>
-          <li><a href="#about" class="smoothScroll fr">Intro</a></li>
-          <li><a href="#jobs" class="smoothScroll fr">Expériences</a></li>
-          <li><a href="#contact" class="smoothScroll fr">Contact</a></li>
+          <li class="fr"><a href="#header" class="smoothScroll fr">Accueil</a></li>
+          <li class="fr"><a href="#about" class="smoothScroll fr">Intro</a></li>
+          <li class="fr"><a href="#jobs" class="smoothScroll fr">Expériences</a></li>
+          <li class="fr"><a href="#contact" class="smoothScroll fr">Contact</a></li>
+
+          <li id="li_languague"><i id="language_switch"></i></li>
         </ul>
 
       </div>
     </div>
-    <!-- language button -->
-    <span id="language_div">
-      <i id="language_switch"></i>
-    </span>
   </nav>
   <!-- End section navbar -->
 
@@ -337,12 +335,8 @@
         <a id="resume_link" class="col-lg-1" href="./resources/CVMathieuLecrique.pdf" >
           <i class="fal fa-file-user"></i>
           <!-- ENG -->
-          <span class="eng active-language">
-            Show my resume
-          </span>
-          <!-- FR -->
-          <span class="fr">
-            Télécharger mon CV
+          <span>
+            Resume / CV
           </span>
         </a>
       </div>

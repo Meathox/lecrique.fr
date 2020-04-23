@@ -33,16 +33,26 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+  }
+
+  #li_languague{
+    padding-bottom:15px;
+  }
+  #language_switch{
+    right: 48%;
   }
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
+  }
+  /* Jobs*/
+  #resume_link i{
+    float: right;
+    margin-top: -64px;
   }
   /* About */
   .head-info .header-content .cmaster h1 {
@@ -63,17 +73,7 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-    display: inline-block;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-  /* Contact */
+   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
@@ -105,11 +105,15 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+  }
+  #li_languague{
+    padding-bottom:15px;
+  }
+  #language_switch{
+    right: 48%;
   }
   .responsive {
     float: right;
@@ -135,16 +139,12 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-    display: inline-block;
+  /* Jobs*/
+  #resume_link i{
+    float: right;
+    margin-top: -64px;
   }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -177,11 +177,15 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+  }
+  #li_languague{
+    padding-bottom:15px;
+  }
+  #language_switch{
+    right: 48%;
   }
   .responsive {
     float: right;
@@ -206,15 +210,10 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 10px;
-    display: inline-block;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+  /* Jobs*/
+  #resume_link i{
+    float: right;
+    margin-top: -64px;
   }
   /* Contact */
   .contact-contact {
@@ -248,11 +247,15 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+  }
+  #li_languague{
+    padding-bottom:15px;
+  }
+  #language_switch{
+    right: 48%;
   }
   .responsive {
     float: right;
@@ -277,14 +280,10 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+  /* Jobs*/
+  #resume_link i{
+    float: right;
+    margin-top: -64px;
   }
   /* Contact */
   .contact-contact {
@@ -318,16 +317,25 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+  }
+  #li_languague{
+    padding-bottom:15px;
+  }
+  #language_switch{
+    right: 45%;
   }
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
+  }
+  /* Jobs*/
+  #resume_link i{
+    float: right;
+    margin-top: -64px;
   }
   /* About */
   .head-info .header-content h1 {

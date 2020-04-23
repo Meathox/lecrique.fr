@@ -53,14 +53,24 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#jobs" class="smoothScroll">Work</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <!-- ENG -->
+          <li><a href="#header" class="smoothScroll eng active-language">Home</a></li>
+          <li><a href="#about" class="smoothScroll eng active-language">About</a></li>
+          <li><a href="#jobs" class="smoothScroll eng active-language">Work</a></li>
+          <li><a href="#contact" class="smoothScroll eng active-language">Contact</a></li>
+          <!-- FR -->
+          <li><a href="#header" class="smoothScroll fr">Accueil</a></li>
+          <li><a href="#about" class="smoothScroll fr">Intro</a></li>
+          <li><a href="#jobs" class="smoothScroll fr">Expériences</a></li>
+          <li><a href="#contact" class="smoothScroll fr">Contact</a></li>
         </ul>
 
       </div>
     </div>
+    <!-- language button -->
+    <span id="language_div">
+      <i id="language_switch"></i>
+    </span>
   </nav>
   <!-- End section navbar -->
 
@@ -94,19 +104,34 @@
         <div class="col-lg-7">
           <div class="about-descr">
 
-            <p class="p-heading colored-text">I am a French lead developer who likes to drive his team through challenging projects.</p>
-            <p class="separator">I started as a webdeveloper and enjoyed working on websites using different frameworks and languages.
+            <!-- ENG -->
+            <p class="p-heading colored-text eng active-language">I am a French lead developer who likes to drive his team through challenging projects.</p>
+            <p class="separator eng active-language">I started as a webdeveloper and enjoyed working on websites using different frameworks and languages.
             </br>
-            My past technical experiences associated with an analytical mind, open-mindedness, curiosity and leadership skills allow me to help my team overcome any problem.
+            My past technical experiences associated with an analytical mind, open-mindedness, curiosity and leadership skills allow me to help my team overcome any challenges.
             </br>
             I'm always up to try something new or explore another way to solve a problem. 
-            Even if I make a mistake, I'm always learning from it.
+            And to me, any mistake is just another step toward the goal.
             </p>
-            <p class="separator">It's just another step toward our goal ;)</p>
-            <p class="separator">I like playing video games during my free time and reading books in my cozy bed before falling asleep.
+            <p class="separator eng active-language">I like playing video games during my free time and reading books in my cozy bed before falling asleep.
             </br>
             I'm also a big fan of tabletop games and a just-the-good-amount-of-evil dungeon master.
             </p>
+
+            <!-- FR -->
+            <p class="p-heading colored-text fr">Je suis un chef de projet qui apprécie de guider son équipe à travers des challenges.</p>
+            <p class="separator fr">J'ai commencé en tant que développeur web, et aimé travailler sur des sites en utilisants un large panel de frameworks et langages.
+            </br>
+            Mon expérience technique associée à un esprit d'analyse, une ouverture d'esprit, de la curiosité et des capacités de management me permettent d'aider mon équipe à surmonter n'importe quel obstacle.
+            </br>
+            Je suis toujours partant pour tester de nouvelles technologies ou explorer ou nouvelle piste pour corriger un problème.
+            Pour moi, une erreur n'est qu'un pas de plus vers l'objectif.
+            </p>
+            <p class="separator fr">J'aime profiter de mon temps libre pour jouer à des jeux vidéos mais j'apprécie également un bon livre le soir en se couchant.
+            </br>
+            Etant un Dungeon Master "suffisament-méchant-mais-pas-trop", je suis friand de jeux de rôles, mais également de jeux de société en général.
+            </p>
+
           </div>
         </div>
       </div>
@@ -125,88 +150,152 @@
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3"></i>
             <i class="fab fa-js"></i>
-            <span>HTML, CSS, JS</span>
-            <p class="separator">I'm using these languages every time I'm developing a website.</p>
+            <!-- ENG -->
+            <span class="eng active-language">HTML, CSS, JS</span>
+            <p class="separator eng active-language">I'm using these languages every time I'm developing a website.</p>
+            <!-- FR -->
+            <span class="fr">HTML, CSS, JS</span>
+            <p class="separator fr">Langages utilisés à chaque site web sur lequel j'ai travaillé.</p>
           </div>
 
           <div class="services-block">
             <i class="fab fa-java"></i>
-            <span>JAVA EE</span>
-            <p class="separator">I had to do maintenance work on a 10 years old webapp written in JavaEE and make it evolve into micro-services.
+            <!-- ENG -->
+            <span class="eng active-language">JAVA EE</span>
+            <p class="separator eng active-language">I had to do maintenance work on a 10 years old webapp written in JavaEE and make it evolve into micro-services.
             </br>
             I also used Quarkus.io to start a new Docker project, it was fun!
+            </p>
+            <!-- FR -->
+            <span class="fr">JAVA EE</span>
+            <p class="separator fr">J'ai fait partie d'une équipe devant maintenir une webapp de plus de 10 ans écrite en Java et la faire évoluer en micro-services.
+            </br>
+            J'ai également eu l'occasion d'utiliser Quarkus.io pour démarrer un projet Docker, c'était super sympa!
             </p>
           </div>
 
           <div class="services-block">
             <i class="fab fa-php"></i>
             <i class="fab fa-symfony"></i>
-            <span>PHP</span>
-            <p class="separator">Language I used for my school projects and small projects.
+            <!-- ENG -->
+            <span class="eng active-language">PHP</span>
+            <p class="separator eng active-language">Language I used for my school projects and small projects.
             </br>
             From vanilla to Symfony, it was my go-to language for a while.
+            </p>
+            <!-- FR -->
+            <span class="fr">PHP</span>
+            <p class="separator fr">Langage utilisé pour mes projets scolaires et petits projets personnels.
+            </br>
+            Du PHP classique à Symfony, en passant par Zend, il a longtemps été mon langage de prédilection.
             </p>
           </div>
 
           <div class="services-block">
             <i class="fal fa-cloud"></i>
             <i id="api_icon_cog" class="fal fa-cog"></i>
-            <span>REST API</span>
-            <p class="separator">I often had to use Restful APIs, from implementing them on old projects to creating micro-services apps. </p>
+            <!-- ENG -->
+            <span class="eng active-language">REST API</span>
+            <p class="separator eng active-language">I often had to use Restful APIs, from implementing them on old projects to creating micro-services apps. </p>
+            <!-- FR -->
+            <span class="fr">REST API</span>
+            <p class="separator fr">J'ai souvent utilisé les APIs REST, de l'implementation sur des projets existants à la création d'applications micro-services. </p>
           </div>
 
           <div class="services-block">
             <i class="fab fa-docker"></i>
-            <span>DOCKER & KUBERNETES</span>
-            <p class="separator">Docker is one of today's most powerful tools for a web developer.
+            <!-- ENG -->
+            <span class="eng active-language">DOCKER & KUBERNETES</span>
+            <p class="separator eng active-language">Docker is one of today's most powerful tools for a web developer.
             </br>
             I used it for my micro-services projects and when I had to migrate an old app to the cloud. 
+            </p>
+            <!-- FR -->
+            <span class="fr">DOCKER & KUBERNETES</span>
+            <p class="separator fr">Docker est aujourd'hui un des outils les plus puissants pour un développeur web.
+            </br>
+            Je l'ai utilisé dans des applications micro-services mais également lorsque j'ai dû participer à la migration d'une application dans le cloud. 
             </p>
           </div>
 
           <div class="services-block">
             <i class="fal fa-database"></i>
-            <span>DATABASES</span>
-            <p class="separator">I used mySQL for my own projects.
+            <!-- ENG -->
+            <span class="eng active-language">DATABASES</span>
+            <p class="separator eng active-language">I used mySQL for my own projects.
             </br>
             My current projects are using Oracle and Vitess.
+            </p>
+            <!-- FR -->
+            <span class="fr">BASES DE DONNEES</span>
+            <p class="separator fr">J'ai régulièrement utilisé mySQL pour mes projets personnels.
+            </br>
+            Actuellement, je travail sur des projets utilisant Oracle et Vitess.
             </p>
           </div>
 
           <div class="services-block">
             <i class="fal fa-users"></i>
-            <span>LEADING A TEAM</span>
-            <p class="separator">I am able to manage, support and make my team members surpass themselves.
+            <!-- ENG -->
+            <span class="eng active-language">LEADING A TEAM</span>
+            <p class="separator eng active-language">I am able to manage, support and make my team members surpass themselves.
             </br>
             I tend to prefer small teams because I think they're more efficients.
+            </p>
+            <!-- FR -->
+            <span class="fr">DIRIGER UNE EQUIPE</span>
+            <p class="separator fr">Je suis capable de diriger, gérer, supporter une équipe et de faire en sorte que chacun se surpasse au sein de celle-ci.
+            </br>
+            J'ai tendance à préférer des équipes pas trop importantes, car je pense que ce sont les plus efficaces.
             </p>
           </div>
 
           <div class="services-block">
             <i class="fal fa-gamepad"></i>
-            <span>VIDEO GAMES</span>
-            <p class="separator">I spend a lot of my free time playing video games.
+            <!-- ENG -->
+            <span class="eng active-language">VIDEO GAMES</span>
+            <p class="separator eng active-language">I spend a lot of my free time playing video games.
             </br>
             I prefer playing support position in multiplayer games.
+            </p>
+            <!-- FR -->
+            <span class="fr">JEUX VIDEO</span>
+            <p class="separator fr">Je passe une bonne partie de mon temps libre sur les jeux vidéos.
+            </br>
+            J'aime particulièrement le rôle de support dans les jeux multijoueurs.
             </p>
           </div>
 
           <div class="services-block">
             <i class="fal fa-dice-d20"></i>
             <i class="fab fa-d-and-d"></i>
-            <span>ROLEPLAYING</span>
-            <p class="separator">I'm a big fan of tabletop games and especially RPGs.
+            <!-- ENG -->
+            <span class="eng active-language">ROLEPLAYING</span>
+            <p class="separator eng active-language">I'm a big fan of tabletop games and especially RPGs.
             </br>
             I've been a Dungeon Master for 5 years.
+            </p>
+            <!-- FR -->
+            <span class="fr">JEUX DE ROLES</span>
+            <p class="separator fr">Je suis un grand fan de jeux de rôles et de société en général.
+            </br>
+            Cela fait 5 ans que je tourmente mes joueurs en tant que dungeon master.
             </p>
           </div>
 
           <div class="services-block">
             <i class="fal fa-journal-whills"></i>
-            <span>READING</span>
-            <p class="separator">Reading is the best way to extend knowledge.
+            <!-- ENG -->
+            <span class="eng active-language">READING</span>
+            <p class="separator eng active-language">Reading is the best way to extend knowledge.
             </br>
             It's also a nice way to embark on epic journeys <i class="fal fa-grin-wink wink"></i>.
+            </p>
+            <!-- FR -->
+            <span class="fr">LECTURE</span>
+            <p class="separator fr">La lecture est le meilleur moyen d'étendre ses connaissance.
+            </br>
+            C'est également une excellente manière de vivre des aventures épiques <i class="fal fa-grin-wink wink"></i>.
             </p>
           </div>
 
@@ -215,10 +304,17 @@
             <i id="golf_ball" class="fal fa-golf-ball"></i>
             <i id="golf_club" class="fal fa-golf-club"></i>
             <i class="fal fa-skiing"></i>
-            <span>SPORTS</span>
-            <p class="separator">When you're working all day sitting at a desk, it's always nice to stretch your legs.
+            <!-- ENG -->
+            <span class="eng active-language">SPORTS</span>
+            <p class="separator eng active-language">When you're working all day sitting at a desk, it's always nice to stretch your legs.
             </br>
             I'm a regular badminton player and a casual golf player. But I'm always up to hit the ski tracks !
+            </p>
+            <!-- FR -->
+            <span class="fr">SPORTS</span>
+            <p class="separator fr">Lorsque vous travaillez toute la journée derrière un bureau, c'est toujours agréable de se dégourdir les jambes.
+            </br>
+            Je joue régulièrement au badminton, plus occasionnellement au golf, mais je suis toujours partant pour aller sur les pistes de ski!
             </p>
           </div>
 
@@ -233,11 +329,20 @@
   <div id="jobs" class="paddsection">
     <div class="container">
       <div class="row">
-        <h2 class="mb-30 colored-text col-lg-11">WORK EXPERIENCE</h2>
+        <!-- ENG -->
+        <h2 class="mb-30 colored-text col-lg-11 eng active-language">WORK EXPERIENCE <span class="small-text">(by companies)</span></h2>
+        <!-- FR -->
+        <h2 class="mb-30 colored-text col-lg-11 fr">EXPERIENCES <span class="small-text">(par entreprises)</span></h2>
+
         <a id="resume_link" class="col-lg-1" href="./resources/CVMathieuLecrique.pdf" >
           <i class="fal fa-file-user"></i>
-          <span>
+          <!-- ENG -->
+          <span class="eng active-language">
             Show my resume
+          </span>
+          <!-- FR -->
+          <span class="fr">
+            Télécharger mon CV
           </span>
         </a>
       </div>
@@ -259,14 +364,25 @@
               
               <div class="job_mission">
                 <section>
-                  <p class="job_duration">
+                  <!-- ENG -->
+                  <p class="job_duration eng active-language">
                     September 2017 - Today
                   </p>
-                  <p class="job_description">
+                  <p class="job_description eng active-language">
                     Lead developer and project leader on the same webapp.
                     First I was leading the Production team (12 people) in charge of maintaining the app.
                     Currently leading the Innovation team (8 people) which is experimenting with new features.
                   </p>
+                  <!-- FR -->
+                  <p class="job_duration fr">
+                    Septembre 2017 - Aujourd'hui
+                  </p>
+                  <p class="job_description fr">
+                    Chef de projet et développeur sur une application en Java.
+                    J'ai commencé par diriger l'équipe Production (12 personnes) en charge de la maintenance de l'application.
+                    Actuellement, je dirige l'équipe Innovation (8 personnes) qui expérimente le développement de nouvelles fonctionnalités.
+                  </p>
+
                   <p class="job_techs">
                     JavaEE, .NET, JSF (Primefaces), REST APIs, Hibernate, HTML, CSS, JS, Oracle, Quarkus, Vitess
                   </p>
@@ -275,12 +391,23 @@
 
               <div class="job_mission">
                 <section>
-                  <p class="job_duration">
+                  <!-- ENG -->
+                  <p class="job_duration eng active-language">
                     July 2016 - September 2017
                   </p>
-                  <p class="job_description">
+                  <p class="job_description eng active-language">
                     Full stack developer on a 10 years old webapp.
+                    I had to do maintenance work but also analyse customers' feadbacks and develop new features from scatch.
                   </p>
+                  <!-- FR -->
+                  <p class="job_duration fr">
+                    Juillet 2016 - Septembre 2017
+                  </p>
+                  <p class="job_description fr">
+                    Développeur full stack sur une application web de 10 ans destinée au notariat.
+                    J'ai eu à maintenir l'application mais également de développer des nouvelles fonctionnalités en analysant les retours des clients.
+                  </p>
+
                   <p class="job_techs">
                     JavaEE, Oracle, Primefaces, REST APIs, Trinidad, CSS, JQuery, XHTML, Javascript, JSP
                   </p>
@@ -289,12 +416,22 @@
 
               <div class="job_mission">
                 <section>
-                  <p class="job_duration">
+                  <!-- ENG -->
+                  <p class="job_duration eng active-language">
                     March 2015 - July 2016
                   </p>
-                  <p class="job_description">
+                  <p class="job_description eng active-language">
                     Development of migration jobs for new customers.
                   </p>
+                  <!-- FR -->
+                  <p class="job_duration fr">
+                    Mars 2015 - Juillet 2016
+                  </p>
+                  <p class="job_description fr">
+                    Analyse de problèmes de récupération de données.
+                    Réalisation de scripts de migration / récupération de ces données.
+                  </p>
+
                   <p class="job_techs">
                     SQL Server, MySQL, Oracle, Windev
                   </p>
@@ -306,12 +443,21 @@
               
               <div class="job_mission">
                 <section>
-                  <p class="job_duration">
+                  <!-- ENG -->
+                  <p class="job_duration eng active-language">
                     April 2014 – June 2014
                   </p>
-                  <p class="job_description">
+                  <p class="job_description eng active-language">
                     Internship. Web integration and database migration.
                   </p>
+                  <!-- FR -->
+                  <p class="job_duration fr">
+                    Avril 2014 – Juin 2014
+                  </p>
+                  <p class="job_description fr">
+                    Stage, développement front end (intégration de maquettes) et création d'un script de mirgration de base de données.
+                  </p>
+
                   <p class="job_techs">
                     PHP, MySQL, Zend F2, JavaScript, CSS, JQuery and HTML
                   </p>
@@ -323,12 +469,21 @@
               
               <div class="job_mission">
                 <section>
-                  <p class="job_duration">
+                  <!-- ENG -->
+                  <p class="job_duration eng active-language">
                     October 2012 – January 2013
                   </p>
-                  <p class="job_description">
+                  <p class="job_description eng active-language">
                     Internship. CMS development (.NET).
                   </p>
+                  <!-- FR -->
+                  <p class="job_duration fr">
+                    Octobre 2012 – Janvier 2013
+                  </p>
+                  <p class="job_description fr">
+                    Stage, développement d'un CMS destiné à une utilisation interne (.NET).
+                  </p>
+
                   <p class="job_techs">
                     Visual Studio, C#, ASP, JavaScript, Crystal Report, CSS
                   </p>
@@ -352,7 +507,10 @@
           <div class="col-lg-3">
             <div class="contact-contact">
 
-              <h2 class="mb-30 colored-text">GET IN TOUCH</h2>
+              <!-- ENG -->
+              <h2 class="mb-30 colored-text eng active-language">GET IN TOUCH</h2>
+              <!-- FR -->
+              <h2 class="mb-30 colored-text fr">ME CONTACTER</h2>
 
               <ul class="contact-details">
                 <li><span>8 Allée Jean Baptiste Castel</span></li>

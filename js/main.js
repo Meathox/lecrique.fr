@@ -8,6 +8,19 @@ $(document).ready(function() {
     'use strict';
   
     // ========================================================================= //
+    //  //LANGUAGE SWITCH
+    // ========================================================================= //
+
+    $('#language_switch').on('click', function(e) {
+      $('.eng').each(function(){
+        this.classList.toggle('active-language')
+      });
+      $('.fr').each(function(){
+        this.classList.toggle('active-language')
+      });
+    });
+
+    // ========================================================================= //
     //  //SMOOTH SCROLL
     // ========================================================================= //
   
@@ -101,6 +114,7 @@ $(document).ready(function() {
         autoplay: true,
         loop: true,
         margin: 20,
+        autoplayHoverPause: true,
         dots: true,
         nav: false,
         responsiveClass: true,

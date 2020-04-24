@@ -112,7 +112,7 @@ $(document).ready(function() {
         strings: ["Mathieu Lecrique.^150", 
         "Chef de projet.^150", 
         "joueur de support.^150", 
-        "Dungeon Master.^150"],
+        "le maitre du donjon.^150"],
         typeSpeed: 100,
         loop: true,
       });

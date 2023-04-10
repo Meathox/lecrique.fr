@@ -98,6 +98,7 @@ $(document).ready(function() {
       typed_eng.typed({
         strings: ["Mathieu Lecrique.^150", 
         "A Lead Developer.^150", 
+        "A dad. ^150",
         "A Support player.^150", 
         "The Dungeon Master.^150"],
         typeSpeed: 100,
@@ -110,7 +111,8 @@ $(document).ready(function() {
     $(function() {
       typed_fr.typed({
         strings: ["Mathieu Lecrique.^150", 
-        "Chef de projet.^150", 
+        "un papa.^150", 
+        "Lead Developper.^150", 
         "joueur de support.^150", 
         "le maitre du donjon.^150"],
         typeSpeed: 100,
